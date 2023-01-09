@@ -184,3 +184,45 @@ function sliceLastValue () {
 }
 
 backOne[0].addEventListener("click", sliceLastValue);
+
+document.addEventListener("keydown", function (e) {
+    if(e.key === '1') {
+        addOne();
+    } else if(e.key === '2') {
+        addTwo();
+    } else if(e.key === '3') {
+        addThree();
+    } else if(e.key === '4') {
+        addFour();
+    } else if(e.key === '5') {
+        addFive();
+    } else if(e.key === '6') {
+        addSix();
+    } else if(e.key === '7') {
+        addSeven();
+    } else if(e.key === '8') {
+        addEight();
+    } else if(e.key === '9') {
+        addNine();
+    } else if(e.key === '0') {
+        addZero();
+    } else if(e.key === '%') {
+        addPercentage();
+    } else if(e.key === '+') {
+        addPlus();
+    } else if(e.key === '-') {
+        addMinus();
+    } else if(e.key === 'x') {
+        addMultiply();
+    } else if(e.key === 'Enter') {
+        finaliseEquation();
+    } else if(e.key === '/') {
+        addDivideBy();
+    } else if(e.key === '.') {
+        addDecimalPoint();
+    } else if(e.key === 'Backspace') {
+        sliceLastValue();
+    }
+});
+ 
+   
